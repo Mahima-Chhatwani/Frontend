@@ -10,6 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route path= "/login" element = {<Login />}  />
+          <Route path= "/" element = {<div>Home Page</div>} />
         </Routes>
       </Router>
     </AuthProvider>
